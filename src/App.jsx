@@ -5,8 +5,9 @@ import ContactUs from "./pages/contact-us";
 import Announcement from './components/home/annoucnment';
 import Header from './components/home/header';
 import Footer from './components/home/footer';
-import SignUp from './components/signup/signup';
-import Login from './components/login/login';
+import SignUps from './pages/signup';
+import Logins from './pages/login';
+import Agentp from './pages/agent';
 
 
 function App() {
@@ -20,13 +21,13 @@ function App() {
         <Route path="/home" element={<Home />} />
        <Route path="/about" element={<About />} />
        <Route path="/contact-us" element={<ContactUs />} />
-       <Route path="/signup" element={<SignUp />} />
-       <Route path="/login" element={<Login />} />
+       <Route path="/signup" element={<SignUps />} />
+       <Route path="/login" element={<Logins />} />
+       <Route path="/agent" element={<Agentp />} />
       </Routes>
     </BrowserRouter>
      <Footer/>
     </>
-    
     
   );
 }

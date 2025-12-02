@@ -1,6 +1,6 @@
 import Contactus from '../components/signup/signup';
 
-const SignUp = () => {
+const SignUps = () => {
   return (
     <>
     
@@ -10,4 +10,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default SignUps;

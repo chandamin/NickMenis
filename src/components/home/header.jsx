@@ -21,7 +21,8 @@ function Header() {
               <a className="active" href="/home">Home</a>
               <a href="/about">About</a>
               <a href="#">How It Works</a>
-              <a href="#">For Sellers</a>
+              <a href="#">Sellers</a>
+               <a href="/agent">Agent</a>
               <a href="/contact-us">Contact Us</a>
             </nav>
 
@@ -66,7 +67,8 @@ function Header() {
                   <a href="/home">Home</a>
                   <a href="/about">About</a>
                   <a href="#">How It Works</a>
-                  <a href="#">For Sellers</a>
+                  <a href="#">Sellers</a>
+                   <a href="/agent">Agent</a>
                   <a href="/contact-us">Contact Us</a>
                 </nav>
 

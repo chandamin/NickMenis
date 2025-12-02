@@ -1,6 +1,6 @@
 import Login from '../components/login/login';
 
-const Login = () => {
+const Logins = () => {
   return (
     <>
 
@@ -10,4 +10,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Logins;
