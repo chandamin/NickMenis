@@ -1,4 +1,3 @@
-
 import Banner from '../components/home/banner';
 import Howitwork from '../components/home/howitwork';
 import ImageWithText from '../components/home/imagewithtext';
