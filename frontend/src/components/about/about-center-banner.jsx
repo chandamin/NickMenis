@@ -1,0 +1,29 @@
+import React from "react";
+
+import { useNavigate } from "react-router-dom";
+const AboutCenterBanner = () => {
+  const navigate = useNavigate();
+  return (
+    <div className="custom-about-center-banner-main">
+      <div className="custom-about-center-banner-inner">
+        <div className="custom-about-center-banner-flex">
+
+          <h2 className="banner-title">
+            Tell us about your property — <br /> no street address required
+          </h2>
+
+          <p className="banner-subtitle">
+            Access opportunities through our 3% agent matching program.
+          </p>
+
+          <button className="banner-btn" onClick={() => navigate("/sellers")}>
+            Compare 3% vs 5% →
+          </button>
+
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default AboutCenterBanner;
