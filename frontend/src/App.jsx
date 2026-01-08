@@ -16,6 +16,9 @@ import AdminDashboardSingleFile from "./components/admin-panel/AdminDashboard"
 import SallersDashboard from './pages/sallers-pannel';
 import AgentDashboard from "./components/agent/agent-dashboard";
 import AcceptInvite from "./pages/AcceptInvite";
+import Albertas from "./pages/alberta-agents";
+import AlbertaPackagePage from './pages/albeart-package';
+import AlbertaAgentCost from "./pages/AlbertaAgentCost";
 
 
 
@@ -44,6 +47,9 @@ function Layout() {
         <Route path="/sellers" element={<Sellers />} />
         <Route path="/accordion" element={<Accordion />} />
         <Route path="/accept-invite" element={<AcceptInvite />} />
+        <Route path="/alberta-agents" element={<Albertas/>} />
+         <Route path="/alberta-package"element={<AlbertaPackagePage />}/>
+         <Route path="/alberta-agent-cost" element={<AlbertaAgentCost />} />
 
         {/* Dashboards */}
         <Route
