@@ -16,7 +16,7 @@ const AboutCenterBanner = () => {
           </p>
 
           <button className="banner-btn">
-            Compare 2% vs 5% →
+            Compare 3% vs 5% →
           </button>
 
         </div>

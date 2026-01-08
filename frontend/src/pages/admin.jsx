@@ -1,4 +1,4 @@
-import Admins from '../components/admindas/admins';
+import Admins from '../components/admin-panel/AdminDashboard';
 
 
 

@@ -69,11 +69,11 @@ export default function LeadsDashboard() {
     return () => clearTimeout(t);
   }, [toast]);
 
-  function handleSignup(name) {
-    setAgentName(name || 'Agent');
-    setShowDashboard(true);
-    setToast('Welcome, ' + (name || 'Agent'));
-  }
+  // function handleSignup(name) {
+  //   setAgentName(name || 'Agent');
+  //   setShowDashboard(true);
+  //   setToast('Welcome, ' + (name || 'Agent'));
+  // }
 
   function logout() {
     setShowDashboard(false);
@@ -96,9 +96,9 @@ export default function LeadsDashboard() {
     setModalLead(null);
   }
 
-  function markRowSold(id) {
-    setLeads(prev => prev.map(l => l.id === id ? {...l, sold: true} : l));
-  }
+  // function markRowSold(id) {
+  //   setLeads(prev => prev.map(l => l.id === id ? {...l, sold: true} : l));
+  // }
 
   const TierPill = ({ tier }) => {
     const cls = tier === 'Gold' ? 'tier-gold' : tier === 'Silver' ? 'tier-silver' : 'tier-bronze';

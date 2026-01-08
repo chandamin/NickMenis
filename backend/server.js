@@ -11,6 +11,7 @@ import getStatusPage from './serverweb.js';
 import sellerRouter from "./routes/sellerRoute.js";
 import agentRouter from "./routes/agentRoute.js";
 import sellerFormRouter from "./routes/sellerFormRoute.js";
+
 dotenv.config();
 const app = express();
 // Configure trust proxy for different environments
@@ -83,7 +84,7 @@ connectdb().then(() => {
 });
 // API Routes
 app.use("/api/auth", authRoute);
-app.use('/api/users',adminRouter);
+app.use('/api/admin',adminRouter);
 app.use('/api/seller',sellerRouter);
 app.use("/api/agents", agentRouter);
 app.use('/api/sellersform', sellerFormRouter);

@@ -27,7 +27,7 @@ const ServiceProcess = () => {
   },
   {
     q: "What if I’m just curious and not ready to sell yet?",
-    a: "That’s fine — many sellers are just exploring their options."
+    a: "That’s fine — many home owners are just exploring their options."
   },
   {
     q: "Do you work with agents from all brokerages?",

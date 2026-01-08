@@ -22,7 +22,7 @@ const Calculator = () => {
   return (
     <section className="save-sec">
       <div className="save-card">
-        <h2>See How Much You Save With 2%</h2>
+        <h2>See How Much You Save With 3%</h2>
         <p>Enter your home price to calculate your estimated savings instantly.</p>
 
         {/* FORM */}
@@ -52,7 +52,7 @@ const Calculator = () => {
           </div>
 
           <div>
-            <p>2% AGENTS commission</p>
+            <p>3% AGENTS commission</p>
             <h3>${agent2.toLocaleString()}</h3>
           </div>
 

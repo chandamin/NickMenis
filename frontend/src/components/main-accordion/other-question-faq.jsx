@@ -42,7 +42,7 @@ const OtherQuestionFaq = () => {
     a: "We rematch you within minutes."
   },
   {
-    q: "Why is this free for sellers?",
+    q: "Why is this free for Home Owners?",
     a: "Because our partner agents fund the platform in exchange for receiving high-quality seller leads."
   }
 ];

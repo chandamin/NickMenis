@@ -11,7 +11,7 @@ const AboutCard = () => {
   return (
     <section className="about-section">
         <div className="about-card-inner-main">
-      <h2 className="about-heading">About 2PercentAgents</h2>
+      <h2 className="about-heading">About 3PercentAgents</h2>
       <p className="about-description">
         It is a long established fact that a reader will be distracted by the readable
         content of a page when looking at its layout.

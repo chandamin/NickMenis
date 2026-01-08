@@ -6,7 +6,7 @@ const Faq = () => {
 
   const faqs = [
     {
-      q: "Is it really just a flat 2% commission?",
+      q: "Is it really just a flat 3% commission?",
       a: "No hidden fees. No surprises. No games."
     },
     {
@@ -14,8 +14,8 @@ const Faq = () => {
       a: "You will be matched with top-rated, verified agents in your area."
     },
     {
-      q: "Why do these agents charge only 2%?",
-      a: "Because our program connects motivated sellers directly to efficient agents."
+      q: "Why do these agents charge only 3%?",
+      a: "Because our program connects motivated home owners directly to efficient agents."
     },
     {
       q: "Do I have to hire the matched agent?",

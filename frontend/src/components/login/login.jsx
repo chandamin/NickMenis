@@ -18,23 +18,17 @@ const Login = () => {
     setLoading(true);
     try {
       let res;
-      // :one: Try admin login
-      try {
-        res = await axios.post(`${backendUrl}/api/users/admin`, formData);
-        if (res.data.success) {
-          localStorage.setItem("token", res.data.token);
-          localStorage.setItem("role", "admin");
-          navigate("/admin");
-          return;
-        }
-      } catch {}
       // :two: Try seller login
       try {
         res = await axios.post(`${backendUrl}/api/auth/login`, formData);
         if (res.data.success) {
             localStorage.setItem("token", res.data.token);
             localStorage.setItem("role", res.data.role);
+         if(res.data.role === 'admin'){
+          navigate("/"+res.data.role+"/dashboard");
+         }else{   
           navigate("/"+res.data.role+"/dashboard"); // your seller page
+         }
           return;
         }
       } catch {}
@@ -72,9 +66,6 @@ const Login = () => {
           <div className="forgot-text">
             <Link to="/forgot-password">Forgot password?</Link>
           </div>
-          {/* <Link to="/dashboard">
-            <button type="submit" className="login-btn">SIGN IN</button>
-          </Link> */}
           <button type="submit" className="login-btn" disabled={loading}>
             {loading ? "Signing in..." : "SIGN IN"}
           </button>

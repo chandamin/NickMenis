@@ -43,7 +43,7 @@ const HowCard = () => {
             </h3>
             <p className="box-text">
               A verified local expert — rated 5 stars — who has agreed in
-              advance to provide full service for a flat 2% commission.
+              advance to provide full service for a flat 3% commission.
             </p>
           </div>
 

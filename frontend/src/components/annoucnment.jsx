@@ -18,11 +18,6 @@ function Announcement() {
               <i className="far fa-envelope"></i>
               contact@mail.com
             </div>
-
-            <div className="contact-item">
-              <i className="fas fa-phone"></i>
-              +9212345678910
-            </div>
           </div>
 
         </div>

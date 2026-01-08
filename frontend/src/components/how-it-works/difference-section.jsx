@@ -30,13 +30,13 @@ const DifferenceSection = () => {
 
           <ul>
             <li>Local 5-Star Real Estate Agents Only</li>
-            <li>Full Transparency — Flat 2% Commission</li>
+            <li>Full Transparency — Flat 3% Commission</li>
             <li>No Obligations — You Choose the Agent</li>
             <li>Local Experts Who Know Your Neighbourhood</li>
-            <li>Sellers Save Thousands in Commission</li>
+            <li>Home Owners Save Thousands in Commission</li>
           </ul>
 
-          <button>Compare 2% vs 5% →</button>
+          <button>Compare 3% vs 5% →</button>
         </div>
       </div>
       </div>

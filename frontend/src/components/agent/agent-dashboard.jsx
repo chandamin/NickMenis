@@ -9,7 +9,7 @@ return (
           <div className="dashboard-left">
             <h1 className="dash-title">Join the 3% Club — Get exclusive Canadian seller leads</h1>
             <p className="dash-desc">
-              This is a matchmaking service connecting motivated sellers with agents who agree to a
+              This is a matchmaking service connecting motivated home owners with agents who agree to a
               <strong> flat 3% commission.</strong>
             </p>
             <p className="dash-desc bold">

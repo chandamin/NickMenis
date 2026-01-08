@@ -7,7 +7,7 @@ const CommonSeller = () => {
   const faqs = [
   {
     q: "What is 3% Agents?",
-    a: "3% Agents is a service that connects home sellers with a local 5-star real estate agent who agrees to provide full-service real estate for a total commission of just 3% instead of the traditional 5%."
+    a: "3% Agents is a service that connects home owners with a local 5-star real estate agent who agrees to provide full-service real estate for a total commission of just 3% instead of the traditional 5%."
   },
   {
     q: "Is the 3% commission real?",
@@ -47,7 +47,7 @@ const CommonSeller = () => {
   },
   {
     q: "Do I have to pay you anything?",
-    a: "No. Sellers pay nothing to use the service."
+    a: "No. Home Owners pay nothing to use the service."
   },
   {
     q: "Are the agents full-service?",

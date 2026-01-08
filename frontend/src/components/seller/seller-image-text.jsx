@@ -7,7 +7,7 @@ function SellerImageWith() {
       <div className="custom-image-text-inner">
         <div className="custom-icon-image-inner-flex">
           <div className="custom-left-content">
-            <h2>Why 2% Makes More Sense Than 5%</h2>
+            <h2>Why 3% Makes More Sense Than 5%</h2>
             <p>
               Most Canadians still pay 5% because they don’t know better
               options exist.
@@ -22,10 +22,10 @@ function SellerImageWith() {
 
             <p className="custom-bold-text">
               No games. No fake fees. Full-service real estate — for an honest
-              2%.
+              3%.
             </p>
 
-            <button className="custom-btn">Get My 2% Agent Match →</button>
+            <button className="custom-btn">Get My 3% Agent Match →</button>
           </div>
 
           <div className="custom-right-image">

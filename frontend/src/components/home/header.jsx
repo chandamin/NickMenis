@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import logo from "../../assets/3percent.jpg";
-import logo2 from "../../assets/3percentrt.png";
 
 function Header() {
   const [open, setOpen] = useState(false);
@@ -21,18 +20,12 @@ function Header() {
             </div>
 
             <nav className="menu">
-              {/* <a className="actives" href="/home">Home</a>
-              <a href="/about">About</a>
-              <a href="#">How It Works</a>
-              <a href="#">Sellers</a>
-               <a href="/agent">Agent</a>
-              <a href="/contact-us">Contact Us</a> */}
 
               <Link className="actives" to="/">Home</Link>
               <Link to="/about">About</Link>
               <Link to="/how-it-works">How It Works</Link>
-              <Link to="/sellers">Sellers</Link>
-              <Link to="/agent">Agent</Link>
+              <Link to="/sellers">Home Owners</Link>
+              <Link to="/agents">Agents</Link>
               <Link to="/contact-us">Contact Us</Link>
 
             </nav>
@@ -78,8 +71,8 @@ function Header() {
                   <Link to="/">Home</Link>
                   <Link to="/about">About</Link>
                   <Link to="/how-it-works">How It Works</Link>
-                  <Link to="/sellers">Sellers</Link>
-                  <Link to="/agent">Agent</Link>
+                  <Link to="/sellers">Home Owners</Link>
+                  <Link to="/agents">Agent</Link>
                   <Link to="/contact-us">Contact Us</Link>
                 </nav>
 

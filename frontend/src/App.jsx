@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link, useLocation } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/home";
 import About from "./pages/about";
 import ContactUs from "./pages/contact-us";
@@ -10,18 +10,22 @@ import Logins from './pages/login';
 import Agentp from './pages/agent';
 import Howitwork from './pages/howitwork';
 import Sellers from './pages/sellers';
-import Admin from './pages/admin';
 import Accordion from './pages/accordion';
 import ProtectedRoute from "./components/routes/ProtectedRoute";
-import AdminDashboardSingleFile from "./admins/admins"
+import AdminDashboardSingleFile from "./components/admin-panel/AdminDashboard"
 import SallersDashboard from './pages/sallers-pannel';
 import AgentDashboard from "./components/agent/agent-dashboard";
+import AcceptInvite from "./pages/AcceptInvite";
+
 
 
 function Layout() {
   const location = useLocation();
 
-  const hideLayout = location.pathname === "/admin";
+  const hideLayout =
+    location.pathname.startsWith("/admin/dashboard") ||
+    location.pathname.startsWith("/seller/dashboard") ||
+    location.pathname.startsWith("/agent/dashboard");
 
   return (
     <>
@@ -29,50 +33,52 @@ function Layout() {
       {!hideLayout && <Header />}
 
       <Routes>
+        {/* Frontend pages */}
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/signup" element={<SignUps />} />
         <Route path="/login" element={<Logins />} />
-        <Route path="/agent" element={<Agentp />} />
+        <Route path="/agents" element={<Agentp />} />
         <Route path="/how-it-works" element={<Howitwork />} />
         <Route path="/sellers" element={<Sellers />} />
-        <Route path="/admin" element={<Admin />} />
-         <Route path="/accordion" element={<Accordion />} />
+        <Route path="/accordion" element={<Accordion />} />
+        <Route path="/accept-invite" element={<AcceptInvite />} />
 
-            {/* Seller Protected Route */}
-          <Route
-            path="/seller/dashboard"
-            element={
-              <ProtectedRoute requiredRole="seller">
-                <SallersDashboard />
-              </ProtectedRoute>
-            }
-          />
-        {/* Seller Protected Route */}
-          <Route
-            path="/agent/dashboard"
-            element={
-              <ProtectedRoute allowedRoles={["agent"]}>
-                <AgentDashboard />
-              </ProtectedRoute>
-            }
-          />
-          {/* Admin Protected Route */}
-          <Route
-            path="/admin"
-            element={
-              <ProtectedRoute requiredRole="admin">
-                <AdminDashboardSingleFile />
-              </ProtectedRoute>
-            }
-          />
+        {/* Dashboards */}
+        <Route
+          path="/seller/dashboard"
+          element={
+            <ProtectedRoute requiredRole="seller">
+              <SallersDashboard />
+            </ProtectedRoute>
+          }
+        />
+
+        <Route
+          path="/agent/dashboard"
+          element={
+            <ProtectedRoute allowedRole="agent">
+              <AgentDashboard />
+            </ProtectedRoute>
+          }
+        />
+
+        <Route
+          path="/admin/dashboard"
+          element={
+            <ProtectedRoute requiredRole="admin">
+              <AdminDashboardSingleFile />
+            </ProtectedRoute>
+          }
+        />
       </Routes>
 
       {!hideLayout && <Footer />}
     </>
   );
 }
+
 
 function App() {
   return (

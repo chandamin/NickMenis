@@ -1,4 +1,4 @@
-import SellersPannel from '../components/seller-dashboard/sellers-pannels';
+import SellersPannel from '../components/seller-panel/sellers-pannels';
 
 const SallersPannel = () => {
   return (

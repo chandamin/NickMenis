@@ -65,8 +65,8 @@ const Footer = () => {
               <li><Link to="/">Home</Link></li>
               <li><Link to="/about">About</Link></li>
               <li><Link to="/how-it-works">How It Works</Link></li>
-              <li><Link to="/sellers">For Sellers</Link></li>
-              <li><Link to="/agent">Become a 3% Agent</Link></li>
+              <li><Link to="/sellers">For Home Owners</Link></li>
+              <li><Link to="/agents">Become a 3% Agent</Link></li>
             </ul>
           </div>
 
@@ -89,7 +89,7 @@ const Footer = () => {
             <div className="footer-contact-item">
               <i className="fa-solid fa-location-dot"></i>
               <p>
-                2% Agents <br />
+                3% Agents <br />
                 M1-1140 de Maisonneuve West, <br />
                 Montreal, QC, H3A 1M8
               </p>
@@ -97,8 +97,8 @@ const Footer = () => {
 
             <div className="footer-contact-item">
               <i className="fa-solid fa-envelope"></i>
-              <a href="mailto:info@2PercentAgents.ca">
-                info@2PercentAgents.ca
+              <a href="mailto:info@3PercentAgents.ca">
+                info@3PercentAgents.ca
               </a>
             </div>
           </div>

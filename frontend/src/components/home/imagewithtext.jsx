@@ -62,7 +62,7 @@ function ImageWithText({scrollToForm}) {
               <li>Full Transparency — Flat 3% Commission</li>
               <li>No Obligations — You Choose the Agent</li>
               <li>Local Experts Who Know Your Neighbourhood</li>
-              <li>Sellers Save Thousands in Commission</li>
+              <li>Home Owners Save Thousands in Commission</li>
             </ul>
 
             <button className="custom-btn" >Compare 3% vs 5% →</button>

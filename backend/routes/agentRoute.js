@@ -1,8 +1,15 @@
 import express from "express";
-import Agent from "../models/Agent.js";
-import Admin from "../models/Admin.js";
-import bcrypt from "bcryptjs";
-import jwt from "jsonwebtoken";
+import { checkAgentApproved } from "../middleware/agentStatusMiddleware.js";
+
 const router = express.Router();
+
+router.get(
+  "/dashboard",
+ 
+  checkAgentApproved,
+  (req, res) => {
+    res.json({ message: "Welcome Agent" });
+  }
+);
 
 export default router;
