@@ -19,6 +19,7 @@ import AcceptInvite from "./pages/AcceptInvite";
 import Albertas from "./pages/alberta-agents";
 import AlbertaPackagePage from './pages/albeart-package';
 import AlbertaAgentCost from "./pages/AlbertaAgentCost";
+import WhyThreePercent from "./pages/why-three-percent";
 
 
 
@@ -50,6 +51,7 @@ function Layout() {
         <Route path="/alberta-agents" element={<Albertas/>} />
          <Route path="/alberta-package"element={<AlbertaPackagePage />}/>
          <Route path="/alberta-agent-cost" element={<AlbertaAgentCost />} />
+         <Route path="/why-three-percent" element={<WhyThreePercent />} />
 
         {/* Dashboards */}
         <Route

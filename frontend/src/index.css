@@ -449,6 +449,14 @@ label.radio-option {
     height: auto;
     padding: 50px 0;
   }
+  .home-banner .tags {
+  gap: 7px;
+  margin-bottom: 35px;
+  }
+
+  .home-banner .banner-content {
+  padding: 20px;
+  }
 
   .home-banner .banner-content h1 {
     font-size: var(--heading-md);
@@ -457,6 +465,10 @@ label.radio-option {
   .home-banner .sub-text {
     font-size: 16px;
   }
+
+  section.home-banner.sallers-main-banner {
+    height: 500px;
+   }
 
   .home-banner .tags span {
     font-size: 14px;
@@ -470,7 +482,7 @@ label.radio-option {
   }
 
   .home-banner .banner-btn {
-    width: 100%;
+    width: 75%;
     padding: 14px 0;
   }
 }
@@ -574,6 +586,10 @@ label.radio-option {
   .howitworks-main .box-text {
     text-align: center;
   }
+
+  .howitworks-main .howitworks-inner {
+    padding: 0 10px;
+}
 }
 
 /* image-width-texrt */
@@ -686,6 +702,10 @@ label.radio-option {
   .custom-icon-image-inner-flex {
     flex-direction: column;
     text-align: center;
+  }
+
+  .custom-image-text-inner {
+  padding: 0 10px;
   }
 
   .custom-left-content h2 {
@@ -875,6 +895,18 @@ div#secong-image-text {
   color: var(--white);
 }
 
+@media (max-width: 768px) {
+  div#secong-image-text {
+    padding: 10px 10px;
+}
+.form-main-wrapper {
+    padding: 0 10px;
+}
+.right-panel {
+    padding: 10px;
+}
+}
+
 @media (max-width: 900px) {
   .form-main-wrapper {
     flex-direction: column;
@@ -952,6 +984,19 @@ div#secong-image-text {
   .multi-card {
     width: 100%;
   }
+  .multi-card {
+    padding: 25px 15px;
+}
+.multi-desc {
+    margin-bottom: 14px;
+}
+.multi-title {
+    margin-bottom: 10px;
+}
+
+.custom-multi-sellers-inner-flex {
+    gap: 15px;
+}
 }
 
 /* center-banner */
@@ -1027,6 +1072,16 @@ div#secong-image-text {
   .custom-center-banner-flex {
     padding: 40px 25px;
   }
+
+  .custom-center-banner-flex::before {
+    border-radius: 0px;
+  }
+
+  .custom-center-banner-flex {
+      border-radius: 0px;
+
+  }
+
 }
 
 /* faq */
@@ -1639,6 +1694,8 @@ hr {
   height: 587px;
 }
 
+
+
 /* about-card */
 
 .about-section {
@@ -1779,7 +1836,49 @@ hr {
   .custom-about-center-banner-flex .custom-center-banner-flex {
     padding: 40px 25px;
   }
+
+    .custom-about-banner-flex {
+    flex-direction: column;
 }
+.custom-about-banner-inner {
+    padding: 0 10px;
+}
+
+.custom-about-banner-inner .about-left {
+    padding: 15px;
+     border-radius: 20px 20px 0px 0px;
+}
+
+.custom-about-banner-inner .about-image {
+    border-radius: 0px 0px 20px 20px;
+    height: auto;
+}
+section.about-section {
+    padding: 30px 10px;
+}
+
+.about-card-inner-main {
+    padding: 0px 0px;
+}
+.custom-about-center-banner-inner {
+    padding: 0px 10px;
+}
+
+.custom-about-center-banner-flex {
+    padding: 40px 15px;
+    color: var(--white);
+}
+
+.custom-about-center-banner-flex {
+    height: 400px;
+    border-radius: 10px;
+}
+
+.custom-about-center-banner-flex::before {
+    border-radius: 10px;
+}
+}
+
 
 /* Contact us page */
 
@@ -2740,6 +2839,15 @@ main.custom-lead-main-container {
     width: 100%;
     max-width: 250px;
   }
+}
+
+@media (max-width: 768px) {
+.diff-images {
+    flex-direction: column;
+}
+.diff-images img {
+    width: 100%;
+}
 }
 
 /* calculetr */
@@ -4455,5 +4563,182 @@ footer.ap-footer p {
 
   .alberta-compliance-inner p {
     font-size: 13px;
+  }
+}
+
+
+
+/* why3percentage css */
+
+.custom-why-three-percent-main {
+  font-family: var(--font);
+  background: var(--white);
+  padding-bottom: var(--section-padding-bottom);
+}
+
+.custom-three-percantage-banners {
+    padding: 50px 50px;
+    background: var(--white);
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+.custom-why-three-percent-inner {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.custom-why-three-percent-inner-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.custom-why-three-percent-hero {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  height: 520px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.custom-why-three-percent-hero-overlay {
+  height: 100%;
+  background: rgba(10, 42, 67, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 40px;
+  max-width: 100%;
+}
+
+.custom-why-three-percent-pill {
+  background: var(--orange);
+  padding: 8px 20px;
+  border-radius: var(--radius-badge);
+  width: fit-content;
+  font-size: var(--text-sm);
+  margin-bottom: 20px;
+}
+
+.custom-why-three-percent-hero h2 {
+  font-size: var(--heading-xl);
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: var(--primary);
+}
+
+.custom-why-three-percent-hero p {
+  font-size: var(--text-sub);
+  max-width: 600px;
+}
+
+.custom-why-three-percent-section.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.custom-why-three-percent-section.split.reverse {
+  direction: rtl;
+}
+
+.custom-why-three-percent-section.split.reverse * {
+  direction: ltr;
+}
+
+.custom-why-three-percent-section h2 {
+  font-size: var(--heading-lg);
+  margin-bottom: 20px;
+  color: var(--primary);
+}
+
+.custom-why-three-percent-section p {
+  font-size: var(--text-md);
+  color: var(--text-dark);
+  margin-bottom: 15px;
+}
+
+.custom-why-three-percent-section ul {
+  padding-left: 18px;
+}
+
+.custom-why-three-percent-section li {
+  margin-bottom: 10px;
+}
+
+.custom-why-three-percent-section img {
+  width: 100%;
+  border-radius: var(--radius-image);
+}
+
+.custom-why-three-percent-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  text-align: center;
+}
+
+.stat-card {
+  background: var(--p-background);
+  padding: 40px;
+  border-radius: var(--radius-cards);
+}
+
+.stat-card h3 {
+  font-size: var(--heading-md);
+  color: var(--primary);
+}
+
+.custom-why-three-percent-cta {
+  background: var(--primary);
+  color: var(--white);
+  padding: 80px 40px;
+  border-radius: var(--radius-image);
+  text-align: center;
+}
+
+.custom-why-three-percent-cta button {
+    background: var(--btn-frm);
+    border: none;
+    padding: 14px 30px;
+    color: var(--white);
+    font-size: var(--btn-md);
+    border-radius: var(--radius-badge);
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+section.custom-why-three-percent-cta h2 {
+    font-size: 42px;
+    padding-bottom: 20px;
+}
+
+section.custom-why-three-percent-section.center h2 {
+    text-align: center;
+}
+
+section.custom-why-three-percent-section.center p {
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+  .custom-why-three-percent-section.split {
+    grid-template-columns: 1fr;
+  }
+
+  .custom-why-three-percent-hero-overlay {
+    padding: 0 30px;
+  }
+
+  .custom-why-three-percent-hero h1 {
+    font-size: var(--heading-mb);
+  }
+
+  .custom-why-three-percent-stats {
+    grid-template-columns: 1fr;
   }
 }

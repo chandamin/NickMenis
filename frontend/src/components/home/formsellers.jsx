@@ -214,7 +214,7 @@ const MultiStepForm = forwardRef((props, ref) => {
         <img src={media} alt="home" />
         <div className="right-content">
           <h3>Fast. Transparent. Local.</h3>
-          <p>Get matched with verified local 5-star agents who provide full service for 3%.</p>
+          <p>Get matched with verified local agents who provide full service for 3%.</p>
 
           <div className="right-buttons">
             <button className="tag-btn">No hidden fees</button>

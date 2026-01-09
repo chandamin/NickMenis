@@ -63,6 +63,9 @@ const Calculator = () => {
         </div>
       </div>
     </section>
+
   );
+
 };
+
 export default Calculator;

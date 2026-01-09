@@ -13,13 +13,13 @@ function Banner({scrollToForm}) {
         <p className="badge">Flat, honest 3% commission</p>
 
         <h1>
-          Sell Your Home With a Local 5-Star Real Estate Agent — for a Flat,
+          Sell Your Home With a Local Real Estate Agent — for a Flat,
           <span> Honest 3% Commission.</span>
         </h1>
 
         <p className="sub-text">
           Why pay the outdated 5% industry standard when a top-performing local
-          5-star real estate agent will provide the exact same full-service
+          real estate agent will provide the exact same full-service
           experience for only 3%? No hidden fees. No surprises. No games.
         </p>
 
@@ -28,7 +28,7 @@ function Banner({scrollToForm}) {
           <span>No surprises</span>
           <span>No games</span>
           <span>Full-service real estate</span>
-          <span>Only verified local 5-star agents</span>
+          <span>Only verified local agents</span>
           <span>Save thousands in commission</span>
         </div>
 

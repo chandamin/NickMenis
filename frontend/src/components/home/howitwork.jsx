@@ -39,10 +39,10 @@ const HowItWork = () => {
               className="howitworks-icon"
             />
             <h3 className="box-title">
-              We Match You With a Local 5-Star Real Estate Agent
+              We Match You With a Local Real Estate Agent
             </h3>
             <p className="box-text">
-              A verified local expert — rated 5 stars — who has agreed in
+              A verified local expert — rated  who has agreed in
               advance to provide full service for a flat 3% commission.
             </p>
           </div>

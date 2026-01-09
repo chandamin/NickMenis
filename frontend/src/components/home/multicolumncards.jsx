@@ -19,7 +19,7 @@ const MultiColumnCards = () => {
           <div className="multi-card">
             <h2 className="multi-title">Agents</h2>
             <p className="multi-desc">
-              Are you a 5-star agent who wants to join 3% Agents and get matched
+              Are you a agent who wants to join 3% Agents and get matched
               with motivated home owners?
             </p>
             <button className="multi-btn">Click here →</button>

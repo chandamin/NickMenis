@@ -19,7 +19,7 @@ const ServiceProcess = () => {
   },
   {
     q: "What if I don’t like the agent you matched me with?",
-    a: "We can match you with another local 5-star agent immediately."
+    a: "We can match you with another local agent immediately."
   },
   {
     q: "Are there any hidden fees?",
