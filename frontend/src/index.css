@@ -1219,6 +1219,23 @@ ul.faq-points li::before {
   font-size: 16px;
 }
 
+.faq-answer-structured p {
+  margin: 10px 0 6px;
+}
+
+.faq-answer-structured ul {
+  margin: 6px 0 14px 20px;
+}
+
+.faq-answer-structured li {
+  margin-bottom: 6px;
+}
+
+.faq-highlight {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .faq-heading {
     font-size: var(--heading-mb);
@@ -4725,6 +4742,13 @@ section.custom-why-three-percent-section.center p {
     text-align: center;
 }
 
+section.custom-why-three-percent-section.split {
+    PADDING-TOP: 60PX;
+}
+
+section.custom-why-three-percent-cta {
+    MARGIN-TOP: 60PX;
+}
 @media (max-width: 900px) {
   .custom-why-three-percent-section.split {
     grid-template-columns: 1fr;
@@ -4741,4 +4765,11 @@ section.custom-why-three-percent-section.center p {
   .custom-why-three-percent-stats {
     grid-template-columns: 1fr;
   }
+
+  .custom-why-three-percent-inner {
+    PADDING: 10PX;
 }
+}
+
+
+

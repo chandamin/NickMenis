@@ -11,10 +11,11 @@ const Agentp = () => {
     
       <AgentBanner />
       <AgentDashboard />
-      <SubscriptionPlans />
-      <LeadsDashboard />
-      <TestimonialSlider />
+      {/* <SubscriptionPlans />
+      <LeadsDashboard /> */}
       <AgentFaq />
+      <TestimonialSlider />
+      
       
     </>
   );

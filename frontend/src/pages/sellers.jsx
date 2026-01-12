@@ -4,8 +4,9 @@ import SellerStepForm from '../components/seller/seller-step-form';
 import Calculator from '../components/seller/calculetr';
 import Howitwork from '../components/home/howitwork';
 
-import Faq from '../components/home/faq';
-import TestimonialSlider from '../components/home/testmonialslider';
+import SallersFaq from '../components/seller/sallers-faq';
+import HomeownerReview from '../components/seller/homeowner-review';
+import AgentReview from '../components/seller/agent-review';
 
 
 
@@ -18,8 +19,9 @@ const Home = () => {
       <SellerStepForm />
       <Calculator />
        <Howitwork />
-      <Faq />
-      <TestimonialSlider />
+      <SallersFaq />
+      <HomeownerReview />
+      <AgentReview />
       
   
     </>
